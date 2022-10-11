@@ -9,7 +9,8 @@ class PageController extends Controller
 {
     public function index()
     {
-        $books = Movie::all();
-        return view('home');
+        $movies = Movie::all();
+        // SELECT * FROM BOOKS
+        return view('home', compact('movies'));
     }
 }
