@@ -2,5 +2,12 @@
 @section('metaTitle', 'Home Page')
 
 @section('content')
-<h1>Home Page Model Controller</h1>
+<h1>Movies</h1>
+<div class="movies_container">
+    <div class="card_movie">
+        
+    </div>
+
+</div>
+
 @endsection
